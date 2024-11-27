@@ -1,0 +1,172 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+header div
+{
+width:1000px;
+height:1800px;	
+display:grid;
+grid-template-rows:20% 60% 20%;
+}
+header
+{
+	display:grid;
+	grid-template-rows:30% 10% 33%;
+	background-color:blue;
+	margin:0px;
+}
+nav
+{
+	background:grey;
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+main
+{
+	height:1200px;
+	border:2px blue solid;
+	display:grid;
+	grid-template-rows:33% 33% 33%;
+	grid-gap:0.3%;
+}
+
+header h1
+{
+	color:white;
+	background-color:black;
+	text-align:center;
+	padding-top:25px;
+	position:relative;
+	top:0px;
+	font-family:Algerian;
+	font-variant:small-caps;
+	text-shadow:2px 2px 5px white;
+}
+header nav a
+{
+	width:20%;
+	text-align:center;
+	padding:5px;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+}
+nav a:hover{
+	border:dotted 3px white;
+	border-radius:10px;
+	box-shadow:1px 2px white;
+}
+header form
+{
+	display:grid;
+	grid-template-rows:25% 65% 9%;
+	grid-gap:0.4%;
+}
+header form label
+{
+	font-size:25px;
+	color:white;
+	padding:25px;
+	text-align:center;
+	font-family:Bahnschrift;
+	font-weight:bolder;
+}
+header form input[type='text']
+{
+	height:35px;
+	margin:25px;
+	margin-top:35px;
+	border-radius:20px;
+}
+header form input[type='submit']
+{
+	height:35px;
+	margin:5px;
+	border-radius:20px;
+	width:100px;
+	margin-left:45%;
+}
+input::placeholder
+{
+	font-size:20px;
+	text-align:center;
+}
+#s1
+{
+	display:grid;
+	grid-template-columns:48% 48%;
+	grid-gap:2%;
+	margin-top:20px;
+	
+}
+#s1 div img
+{
+	padding:10px;
+	padding-left:30%;
+width:300px;
+height:250px;
+border-radius:20px;
+}
+
+#s1 div
+{
+	display:grid;
+	grid-template-rows:25% 50%;
+	background-color:#b8c2bb;
+	margin-left:4%;
+	border-radius:20px;
+	box-shadow:5px 5px 5px black;
+	text-align:center;
+	}
+	#s2
+	{
+		background:black;
+		color:white;
+		margin-top:20px;
+	border-radius:20px;
+	padding-left:10px;
+	padding-top:10px;
+	display:grid;
+	grid-template-rows:20% 70%;
+		
+	}
+	#s2 div div img
+	{
+		width:50%;
+		height:50%;
+	}
+	#s2d
+	{
+		display:flex;
+	}
+	#s3
+	{
+		display:flex;
+		margin:20px;
+	}
+	#s3 img
+	{
+		width:50%;
+		height:90%;
+		padding:20px;
+	}
+	#s3 div
+	{
+		margin:30px;
+		display:grid;
+		grid-template-rows:70% 20%;
+	}
+	#s3 div h1,p
+	{
+		text-align:center;
+	}
+	footer
+	{
+		background:black;
+		color:white;
+		word-spacing:10px;
+		font-size:30px;
+	}
